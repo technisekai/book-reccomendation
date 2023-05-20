@@ -97,8 +97,29 @@ kemudian untuk hasil rekomendasinya dicoba melakukan rekomendasi top 5 dari buku
 |  3 |                                         Bluebeard | kurt vonnegut |
 |  4 |                                      Mother Night | kurt vonnegut |
 
-**---Ini adalah bagian akhir laporan---**
+## Evaluation
 
-_Catatan:_
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
+Palm Sunday merupakan karya dari penulis Kurt Vonnegut. Buku yang direkomendasikan pun benar adanya bahwa karya Kurt Vonnegut. Untuk menghitung metrik precision pada sistem rekomendasi digunakan formula berikut:
+
+`precision = Jumlah Prediksi Benar / k * 100`
+
+sedemikian sehingga:
+
+`precision = 5 /5 * 100 = 100%`
+
+hasilnya precision model cosine similiarity ini adalah 100%
+
+## Referensi
+[1]	Mobius, “Book Recommendation Dataset | Kaggle.” https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset (accessed May 20, 2023).
+
+[2]	M. Fajriansyah, P. P. Adikara, and A. W. Widodo, “Sistem Rekomendasi Film Menggunakan Metode Content Based Filtering,” J. Pengemb. Teknol. Inf. dan Ilmu Komput., vol. 5, no. 6, pp. 2188–2199, 2021, Accessed: May 20, 2023. [Online]. Available: http://e-journal.uajy.ac.id/20600/
+
+[3]	R. W. Online, “Minat Baca Orang Indonesia Serendah Ini? Benar Gak Sih?!,” 18 Juni 2021, 2021. https://www.wartaekonomi.co.id/read346432/minat-baca-orang-indonesia-serendah-ini-benar-gak-sih (accessed May 20, 2023).
+
+[4]	A. Yanto, “5 Alasan Mengapa Kamu Malas Membaca Buku.” https://www.idntimes.com/life/education/andri-andreas-1/alasan-mengapa-kamu-malas-membaca-buku-c1c2?page=all (accessed May 20, 2023).
+
+[5]	H. S. Kusuma and A. Musdholifah, “Recommendation System for Thesis Topics Using Content-based Filtering,” IJCCS (Indonesian J. Comput. Cybern. Syst., vol. 15, no. 1, p. 65, Jan. 2021, doi: 10.22146/ijccs.62716.
+
+[6]	S. H. Nallamala, U. R. Bajjuri, S. Anandarao, D. D. D. Prasad, and D. P. Mishra, “A Brief Analysis of Collaborative and Content Based Filtering Algorithms used in Recommender Systems,” IOP Conf. Ser. Mater. Sci. Eng., vol. 981, no. 2, p. 022008, Dec. 2020, doi: 10.1088/1757-899X/981/2/022008.
+
+
